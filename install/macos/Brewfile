@@ -1,0 +1,94 @@
+tap "buo/cask-upgrade"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
+# Tool to obtain certs from Let's Encrypt and autoenable HTTPS
+brew "certbot"
+# Cross-platform make
+brew "cmake"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Convert text between DOS, UNIX, and Mac formats
+brew "dos2unix"
+# Distributed search & analytics engine
+brew "elasticsearch"
+# Collection of GNU find, xargs, and locate
+brew "findutils"
+# WebDriver <-> Marionette proxy
+brew "geckodriver"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# GNU utilities for networking
+brew "inetutils", link: false
+# Keep your Mac's application settings in sync
+brew "mackup"
+# Mac App Store command-line interface
+brew "mas"
+# Java-based project management
+brew "maven"
+# Open source relational database management system
+brew "mysql"
+# HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
+brew "nginx"
+# Platform built on V8 to build network applications
+brew "node"
+# Hook preloader
+brew "proxychains-ng"
+# Powerful, clean, object-oriented scripting language
+brew "ruby", link: true
+# User interface to the TELNET protocol (built from macOS Sierra sources)
+brew "telnet"
+# Implementation of Java Servlet and JavaServer Pages
+brew "tomcat@7"
+# Implementation of Java Servlet and JavaServer Pages
+brew "tomcat@8"
+# Internet file retriever
+brew "wget"
+cask "authy"
+cask "bartender"
+cask "bettertouchtool"
+cask "betterzip"
+cask "cornerstone"
+cask "dashlane"
+cask "downie"
+cask "eagle"
+cask "fastscripts"
+cask "folx"
+cask "hammerspoon"
+cask "hyperdock"
+cask "hyperswitch"
+cask "iina"
+cask "imazing"
+cask "jetbrains-toolbox"
+cask "omnifocus"
+cask "paw"
+cask "postman"
+cask "qlvideo"
+cask "setapp"
+cask "shadowsocksx-ng"
+cask "snagit"
+cask "today-scripts"
+cask "turbo-boost-switcher"
+cask "visualvm"
+cask "xlplayer"
+mas "Drafts", id: 1435957248
+mas "Easy New File", id: 1162194131
+mas "EasyFind", id: 411673888
+mas "EuDic", id: 434350458
+mas "FastScripts", id: 446994638
+mas "Irvue", id: 1039633667
+mas "Kantu", id: 1314842898
+mas "Kindle", id: 405399194
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "PCalc", id: 403504866
+mas "Quiver", id: 866773894
+mas "Termius", id: 1176074088
+mas "WeChat", id: 836500024
+mas "Xcode", id: 497799835
